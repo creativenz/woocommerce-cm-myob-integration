@@ -343,7 +343,7 @@ function cm_get_skus( $product ) {
 
 /**
  * Calls to MYOB ExoNET API to get stock details of item in particular.
- * We are using the 'Free' part of the XML response for the stock available to the website
+ * We are using the 'Physical' - 'Committed' part of the XML response for the stock available to the website
  */
 function cm_get_stock( $products ) {
     // Pull down the headers that we generated at the start of the file
